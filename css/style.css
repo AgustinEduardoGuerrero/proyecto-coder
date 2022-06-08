@@ -563,6 +563,11 @@
 
     }
 
+    /* CONTACTO */
+    .cajaForm{
+        display: flex;
+    }
+
 
 
 

@@ -57,9 +57,8 @@
 
 .navBar ul li{
     list-style-type: none;
-    margin: 1rem;
     align-content: center;
-    width: 100%;
+    width: 100%;  
 }
 
 .navBar ul li a{
@@ -181,6 +180,9 @@
 .seccion1 h2{
     padding: 15px;
 }
+.imgBanner{
+    width: 100%;
+}
 
 .bannerIndex{
     grid-area: bannerIndex;
@@ -189,7 +191,7 @@
 }
 
 .imgIndex{
-    width: 50vh;
+    width: 100%;
 }
 
 .destacados{
@@ -226,6 +228,11 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 0,5rem;
+}
+
+.producto:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 1s;
 }
 
 .textoProducto{
